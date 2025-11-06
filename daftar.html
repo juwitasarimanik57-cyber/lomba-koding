@@ -1,0 +1,139 @@
+<html>
+<head>
+<style>
+  body {
+    background-color: #00AEEF;;
+    font-family: 'Courier New', Courier, monospace;
+   color: #FFFFFF;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #2d3748; /* Warna abu-abu gelap untuk konten */
+    border: 1px solid #4a5568;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #4a5568;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: #e2e8f0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #718096;
+  }
+  table {
+    width: 100%;
+  }
+  th, td {
+    padding: 10px;
+  }
+  th {
+    background-color: #2d3748;
+    color: #e2e8f0;
+  }
+
+</style>
+</head>
+<body>
+<table>
+<h1 align = center>DAFTAR</h1> 
+  <a href="index.html">Beranda</a>|
+  <a href="daftar.html" >Daftar</a>|
+  <a href="jadwal.html">Jadwal</a>
+  </p>
+  <hr>
+  <p>
+  
+ <tr><form>
+<td>Nama Tim </td>
+<td>:</td>
+<td><input type= text   name="nama"></td>
+</tr>
+
+ <tr>
+<td>Asal Sekolah </td>
+<td>:</td>
+<td><input type= text   name="asal sekolah"></td>
+</tr>
+
+<tr>
+<td>Pilihan Lomba</td>
+<td>:</td>
+<td><select name="Dropdown">
+  <option value="1">Web</option>
+  <option value="2">Mobile Apps</option>
+  <option value="3">Data Science</option>
+</select></td>
+</tr>
+
+ <tr>
+<td>Nama Ketua Tim </td>
+<td>:</td>
+<td><input type= text   name="asal sekolah"></td>
+</tr>
+
+<tr>
+<td>Email Ketua Tim</td>
+<td>:</td>
+<td><input type="email" id="email" name="email"></td>
+</tr>
+
+<tr>
+<td>Upload Kartu Tanda Mahasiswa</td>
+<td>:</td>
+<td><input type="file" id="dokumen" name="dokumen"></td>
+</tr>
+
+<tr>
+<td>Persetujuan</td>
+<td>:</td>
+<td><input type="checkbox" name="setuju"><label>Kami menyetujui semua syarat dan ketentuan yang berlaku</label></td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+<td><input type=submit value=Kirim></td>
+</tr>
+</table>
+<h3>Alur Pendaftaran</h3>
+ <ul>
+  <li>Isi formulir dengan data yang benar </li>
+  <li>Upload berkas yang diperlukan dalam satu file .zip </li>
+  <li>Tunggu email konfirmasi dari panitia</li>
+  <li>Gabung ke grup Discord yang link-nya ada di email</li>
+</ul>
+
+<table border = 1>
+  <h1>Detail setiap kategori lomba </h1>
+  <tr>
+    <th>Kategori</th>
+    <th>Teknologi yang diizinkan</th>
+  </tr>
+  <tr>
+    <td> Web Development|</td>
+    <td>HTML, CSS, JavaScript (Framework Bebas)</td>
+  </tr>
+  <tr>
+    <td>Mobile Apps</td>
+    <td>Kotlin/Java (Android) atau Swift (iOS)</td>
+  </tr>
+  <tr>
+    <td>Data Science</td>
+	<td>Python (Pandas, Scikit-learn) </td>
+  </tr>
+
+
+</body>
+</html>  
